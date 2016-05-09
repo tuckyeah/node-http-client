@@ -33,21 +33,34 @@ points you'd like made clearer. We will discuss our findings.
 
 ## Demo: Make a Request
 
-Start the echo server with `node lib/server.js`.
+Start an echo server with `node lib/http-server.js`.
 
-Make a reqeust by running `node lib/request.js`.
+Make a request by running `node lib/http-client-request.js`.
 
-## Read-Along: A Simple request
+## Annotate Along: A Simple request
 
-Let's read the main part of the request script, the part that uses
-`http.request`.
+Let's examine and run the request script, `lib/http-client-request.js`.
 
 ## Lab: Compare HTTP Client with `curl` and AJAX
 
-Examine the code in [`lib/request.js`](lib/request.js). How is it similar to
-`curl` and AJAX? How does it differ?
+Examine the code in [lib/http-client-request.js](lib/http-client-request.js).
+How is it similar to `curl` and AJAX? How does it differ?  Make a list.
 
-Annotate the code in [`lib/request-promises.js`](lib/request-promises.js).
+Annotate the code in [lib/request-promises.js](lib/request-promises.js).
+
+## Annotate Along: Sign up then in
+
+Let's examine and run `lib/sign-up-and-in.js`.
+
+We'll use [library-api](https://github.com/ga-wdi-boston/library-api) top handle
+ requests.
+
+## Lab: Compare with using promises
+
+List the similarities and differences between `lib/sign-up-and-in.js` and
+ `lib/sign-up-and-in-promises.js`
+
+Which has clearer flow control?
 
 ## Additional Resources
 

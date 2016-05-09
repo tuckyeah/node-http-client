@@ -1,9 +1,13 @@
 'use strict';
 
-var example = require('../lib/example');
+const chai = require('chai');
 
-describe('Example', () => {
-  it('is true', () => {
-    expect(example()).toBe(true);
-  });
-});
+const expect = chai.expect;
+
+const example = require('../lib/example');
+
+describe('Example', () =>
+  it('is true', () =>
+    expect(example()).to.be.true
+  )
+);
