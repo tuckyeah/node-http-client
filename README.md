@@ -46,13 +46,13 @@ Let's examine and run the request script, `lib/http-client-request.js`.
 Examine the code in [lib/http-client-request.js](lib/http-client-request.js).
 How is it similar to `curl` and AJAX? How does it differ?  Make a list.
 
-Annotate the code in [lib/request-promises.js](lib/request-promises.js).
+Annotate the code in [lib/http-client-equest-promises.js](lib/http-client-request-promises.js).
 
 ## Annotate Along: Sign up then in
 
 Let's examine and run `lib/sign-up-and-in.js`.
 
-We'll use [library-api](https://github.com/ga-wdi-boston/library-api) top handle
+We'll use [library-api](https://github.com/ga-wdi-boston/library-api) to handle
  requests.
 
 ## Lab: Compare with using promises
